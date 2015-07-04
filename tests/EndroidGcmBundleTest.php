@@ -7,9 +7,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\GcmBundle\Tests\DependencyInjection;
+namespace Endroid\Bundle\GcmBundle;
 
-class GcmExtensionTest extends \PHPUnit_Framework_TestCase
+use PHPUnit_Framework_TestCase;
+
+class EndroidGcmBundleTest extends PHPUnit_Framework_TestCase
 {
     public function testNoTestsYet()
     {

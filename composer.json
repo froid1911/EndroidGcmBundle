@@ -16,10 +16,19 @@
         "php": ">=5.3.0",
         "endroid/gcm": "~1.0"
     },
-    "autoload": {
-        "psr-0": { "Endroid\\Bundle\\GcmBundle": "" }
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~1.9",
+        "phpunit/phpunit": "~4.7",
+        "symfony/var-dumper": "~2.7"
     },
-    "target-dir": "Endroid/Bundle/GcmBundle",
+    "autoload": {
+        "psr-4": {
+            "Endroid\\Bundle\\GcmBundle\\": [ "src/", "tests/" ]
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
