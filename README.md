@@ -85,7 +85,7 @@ public function gcmSendAction()
         'message' => 'Message body',
     );
 
-    $response = $gcm->send($data, $registrationIds);
+    $response = $client->send($data, $registrationIds);
 
     ...
 }
