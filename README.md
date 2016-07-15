@@ -3,9 +3,11 @@ Endroid Google Cloud Messaging Bundle
 
 *By [endroid](http://endroid.nl/)*
 
+[![Latest Stable Version](http://img.shields.io/packagist/v/endroid/gcm-bundle.svg)](https://packagist.org/packages/endroid/gcm-bundle)
 [![Build Status](https://secure.travis-ci.org/endroid/EndroidGcmBundle.png)](http://travis-ci.org/endroid/EndroidGcmBundle)
-[![Latest Stable Version](https://poser.pugx.org/endroid/gcm-bundle/v/stable.png)](https://packagist.org/packages/endroid/gcm-bundle)
-[![Total Downloads](https://poser.pugx.org/endroid/gcm-bundle/downloads.png)](https://packagist.org/packages/endroid/gcm-bundle)
+[![Total Downloads](http://img.shields.io/packagist/dt/endroid/gcm-bundle.svg)](https://packagist.org/packages/endroid/gcm-bundle)
+[![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/gcm-bundle.svg)](https://packagist.org/packages/endroid/gcm-bundle)
+[![License](http://img.shields.io/packagist/l/endroid/gcm-bundle.svg)](https://packagist.org/packages/endroid/gcm-bundle)
 
 This bundle enables you to use the Endroid Google Cloud Messaging (endroid/Gcm) library as a decoupled service and
 enables configuration through the Symfony framework. Google Cloud Messaging is a service that helps developers send
@@ -93,9 +95,9 @@ public function gcmSendAction()
 
 ## Versioning
 
-Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatible
-changes will be kept to a minimum but be aware that these can occur. Lock
-your dependencies for production and test your code when upgrading.
+Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatibility
+breaking changes will be kept to a minimum but be aware that these can occur.
+Lock your dependencies for production and test your code when upgrading.
 
 ## License
 
